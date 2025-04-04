@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    padding: 3em 6em;
+}
+header{
+    height: 100vh;
+}
+.bg-right{
+    background-color: #C4C4C4;
+    background-repeat:no-repeat;
+    height: 150vh;
+    width: 100vw;
+    float: right;
+    object-fit: fill;
+}
+nav{
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.arrow{
+    width: 8px;
+}
+.menu ul, .button ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    padding: 0 2em;
+    list-style: none;
+    color: #6C768D;
+}
+nav li:hover{
+    color: #0056D6;
+}
+nav span{
+    padding-left: 0.5rem;
+}
+.btn{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0056D6;
+    border-radius: 35px;
+    padding: .8em 2em;
+}
+.btn:hover{
+    background-color: #fff;
+    border: 1px solid #0056D6;
+    color: #0056D6;
+}
+.hero{
+    position: absolute;
+    top: 30%;
+    width: 70%
+}
+.hero h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.hero p{
+    width: 55%;
+    line-height: 1.5;
+}
+.hero .button{
+    display: flex;
+    padding-top: 1.5rem;
+    width: 50%;
+    justify-content: space-between;
+}
+.invert{
+    background-color: #fff;
+    border: 1px solid #0056D6;
+    color: #0056D6;
+}
+.invert:hover{
+    color: #fff;
+    background-color: #0056D6;
+}
+/*Feature Section*/
+.feature{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    max-width: 20rem;
+    text-align: center;
+}
+.card img{
+    width: 60px;
+}
+.card h3{
+    font-weight: 500;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.card p{
+    font-size: .8rem;
+    color: #757575;
+    width: 50%;
+    margin: 0 auto;
+}
+.stats{
+    background-color: #0056D6;
+    box-shadow: 2px 2px #9B959529;
+    margin: 3em 7em;
+    padding: 3rem 4rem;
+    border-radius: 15px;
+}
+.stats h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #FEFEFE;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+.statistics{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    text-align: left;
+}
+.stats__info h2{
+    text-align: left;
+    font-size: 3rem;
+}
+hr{
+    width: 20%;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.stats__info p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    width: 18rem;
+    font-weight: 400;
+}
+.stats__info{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
