@@ -49,7 +49,7 @@
 .center{
     text-align: center;
 }
-.stats h2, .stats h3{
+.container h2, .stats h3{
     font-size: 2.5rem;
 }
 .statistics{
@@ -108,3 +108,73 @@
     color: #5F5F5F;
     font-weight: 500;
 }
+/*Footer*/
+footer{
+    background-color: #0056D6;
+    color: #fff;
+    padding-top: 4rem;
+    text-align: center;
+}
+footer h2{
+    font-weight: 500;
+}
+footer button{
+    margin: 3rem 0;
+    padding: .8rem 1.3rem;
+    font-size: .8rem;
+    border-radius: 7px;
+    border: 1px solid #757575;
+}
+footer button:hover{
+    background-color: white;
+    color: #0056D6;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    text-align: left;
+    margin: 3rem 0;
+}
+.quick__links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: flex-end;
+    gap: 7rem;
+}
+.links{
+    flex-grow: 1;
+    flex-basis: 5rem;
+}
+.main__logo img{
+    width: 5rem;
+}
+.main__logo p{
+    width: 10rem;
+}
+.links li, .main__logo p{
+    list-style: none;
+    font-size: .7rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+}
+.links li:hover{
+    text-decoration: underline;
+}
+.first__link{
+    padding-bottom: 2.5rem;
+}
+.footnote{
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: .6rem;
+    padding-bottom: 0;
+}
+footer.container{
+    padding-bottom: 1%;
+}
+
+
