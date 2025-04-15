@@ -108,6 +108,144 @@
     color: #5F5F5F;
     font-weight: 500;
 }
+/*Customer*/
+.customer{
+    text-align: center;
+}
+.customer .subtext{
+    font-weight: 400;
+    color: #9598A0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+.testimonial{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.testimonial .arrow{
+    width: 3rem;
+}
+.review{
+    background-color: #fff;
+    padding: 2rem;
+    font-weight: 500;
+    color: #9598A0;
+    box-shadow: 1px 3px 6px 2px #2E213D0D,0px 20px 1px -4px white,0px 35px 8px -8px #2E213D0D, 0px 50px 1px -10px white,0px 65px 8px -16px #2E213D0D ;
+}
+/* 1px 3px 6px 2px grey, 0px 20px 1px -2px white, 0px 35px 20px -8px grey, 0px 48px 0px -10px white, 0px 53px 4px -10px grey; */
+.review .name{
+    font-weight: 600;
+    color: #171C2C;
+    font-size: 1.2rem;
+}
+.review .role{
+    padding: .5rem 0;
+    font-size: .8rem;
+}
+.review .text{
+    padding: 2rem 0;
+}
+.roundDots{
+    margin-top: 6rem;
+}
+.rounddot{
+    height: 10px;
+    width: 10px;
+    background-color: #D3E5FF;
+    border-radius: 50%;
+    display: inline-block;
+}
+.rounddot:hover{
+    background-color: #0056D6;
+}
+/*Agents*/
+.ourAgents{
+    background-image:linear-gradient(#F6FBFD, #F4F8FD00);
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+.dots{
+    position: relative;
+    text-align: center;
+}
+.dots .union{
+    position: absolute;
+    right: 350px;
+    width: 150px;
+    top: 150px;
+    
+}
+.dots h2{
+    color: #343951;
+    font-weight: 600;
+}
+.team{
+    font-weight: 400;
+    color: #5F5F5F;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+.agents{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+    position: relative;
+    z-index: 100;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.agent{
+    background-color: #fff;
+    font-weight: 500;
+    color: #343951;
+    height: 280px;
+    width: 250px;
+    box-shadow: 3px 4px 5px #9b9595f7;
+}
+.agentIcons{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;  
+}
+
+.agentDetails img{
+    border-radius: 50%;
+    width: 120px;
+}
+.agent .location{
+    font-size: .6rem;
+    letter-spacing: 1px;
+    padding-top: .2rem;
+}
+.agent .contact{
+    padding: 2rem 0;
+}
+.agent .phone{
+    font-size: .8rem;
+}
+.agent .email{
+    color: #0056D6;
+    font-size: .6rem;
+    padding-top: .2rem;
+}
+.second{
+    margin-top: 3rem;
+}
+.third{
+    margin-top: 6rem;
+}
+.second .agentDetails img, .third .agentDetails .img{
+    margin-top: -20px;
+}
+.second .agentDetails .name, .third .agentDetails .name{
+    margin-top: -20px;
+}
 /*Footer*/
 footer{
     background-color: #0056D6;
